@@ -5,7 +5,7 @@ default: &default
   password: 1234
   pool: 5 # not mandatory
   timeout: 5000 # not mandatory
-  host: localhost
+  host: 192.168.0.5
   port: 5432
 
 development:
