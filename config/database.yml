@@ -6,7 +6,7 @@ default: &default
   pool: 5 # not mandatory
   timeout: 5000 # not mandatory
   host: postgresservice
-  port: 31914
+  port: 5432
 
 development:
   <<: *default
