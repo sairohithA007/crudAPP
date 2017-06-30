@@ -5,8 +5,8 @@ default: &default
   password: 1234
   pool: 5 # not mandatory
   timeout: 5000 # not mandatory
-  host: postgresservice
-  port: 31914
+  #host: postgresservice
+  #port: 31914
 
 development:
   <<: *default
